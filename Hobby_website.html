@@ -2,33 +2,56 @@
 <HTML lang="en">
 
 <head>
-
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
-<header>
-    <h1>
-        Crafting Projects
-    </h1>
-    <h2>
-        <table>
-            <th>
-           
-                About Page
-            </th>
 
-            <th>
-                Websites
-            </th>
-  
-        </table>
-    </h2>
-</header>
+<main>
+    <body>
 
-<body>
-    <h2> List of Websites for Planning a Crafting Project</h2>
+        <header>
+
+            <input type="checkbox" id="menu-toggle" />
+
+            <div class="main-nav">
+                <ul>
+                    <li>
+                        <a href="about_hobby_website.html">About Craft Projects</a>
+                    </li>
+                </ul>
+            </div>
+
+        <!-- This div tag adds the hamburger menu to the html
+        It also sets the icon as a toggle than can be checked and unchecked through CSS  -->
+
+            <label for="menu-toggle" class="hamburger-menu">
+                <img src="assets/duotone-menu-hamburger-svgrepo-com.svg" alt="Menu">
+            </label>
+
+            <nav class="mobile-nav">
+                <label for="menu-toggle" class="close-btn"></label>
+                <ul>
+                    <li>
+                        <a href="about_hobby_website.html">About Craft Projects</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <h1>
+            Crafting Projects
+        </h1>
+
+        <h2> List of Websites for Planning a Crafting Project</h2>
 
 
-    <h2> Categories of Crafting Projects</h2>
-</body>
+        <h2> Categories of Crafting Projects</h2>
+
+        <footer>
+
+        </footer>
+    </body>
+</main>
 
 </HTML>
