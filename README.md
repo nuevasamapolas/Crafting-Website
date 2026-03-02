@@ -14,5 +14,5 @@ The Crafting Projects website is meant to orient you to the kinds of crafting pr
 Figma wireframe: https://www.figma.com/design/EN6VWrhGt9Xe6XyDKQ4ENA/Crafting-Project-Management-System?node-id=0-1&t=oQ5JRPfgD9NpxaNo-1
 
 # To serve the hmtl pages
-Run this command in your terminal: python -m http.server 8080
+Run this command in your terminal: python -m http.server 8080 and navigate to: http://[::]:8080/
 
