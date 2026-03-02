@@ -43,7 +43,7 @@ body {
 
 .main-nav {
     background-color: rgb(113, 98, 98);
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Make this tag relative, so that the elements with position absolute relate to it */
@@ -51,7 +51,6 @@ main {
     position: relative;
 }
 
-/* Uses flexbox to headings */
 h1 {
     text-align: center;
     color: rgb(34, 122, 136);
@@ -104,8 +103,7 @@ h3 {
 /* Non-desktop device styles */
 @media only screen and (max-width: 1024px) {
 
-    header .main-nav,
-    header .right-nav {
+    header .main-nav {
         display: none;
     }
 
@@ -125,4 +123,16 @@ h3 {
         grid-template-columns: 1fr;
     }
 
+}
+
+.about-crafting-examples {
+    display: flex;
+    flex-direction: column;
+}
+
+.crafting-examples-table th,
+.crafting-examples-table td {
+    padding: 12px;
+    border: 1px solid #aaa;
+    text-align: left;
 }
