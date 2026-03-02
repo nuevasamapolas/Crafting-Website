@@ -1,3 +1,4 @@
+/* Applies consistent font-size, font and background to all rendered content */
 body {
     font-family: system-ui;
     font-size: 1.25rem;
@@ -51,6 +52,7 @@ main {
     position: relative;
 }
 
+/* Styles for Landing Page */
 h1 {
     text-align: center;
     color: rgb(34, 122, 136);
@@ -100,7 +102,8 @@ h3 {
     height: 200px;
 }
 
-/* Non-desktop device styles */
+/* Non-desktop device styles 
+menu-toggle, looks for checked toogle to apply transform property to mobile-nav */
 @media only screen and (max-width: 1024px) {
 
     header .main-nav {
@@ -124,6 +127,10 @@ h3 {
     }
 
 }
+
+/* About page styles
+Use flex-direction property to organize category examples into columns */
+
 
 .about-crafting-examples {
     display: flex;
