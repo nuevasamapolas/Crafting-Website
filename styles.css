@@ -1,3 +1,10 @@
+body {
+    font-family: system-ui;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background-color: #D9D9D9;
+}
+
 #menu-toggle {
     position: absolute;
     opacity: 0;
@@ -39,15 +46,28 @@ main {
     position: relative;
 }
 
+/* Uses flexbox to headings */
 h1 {
     display: flex;
     justify-content: center;
+    color:rgb(34, 122, 136);
 
 }
 
 h2 {
     display: flex;
     justify-content: center;
+}
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.crafting-websites  {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* Non-desktop device styles */
