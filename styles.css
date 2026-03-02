@@ -39,6 +39,17 @@ main {
     position: relative;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
 /* Non-desktop device styles */
 @media only screen and (max-width: 1024px) {
 
